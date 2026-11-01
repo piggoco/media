@@ -10,12 +10,14 @@
 #   credit:  credit line
 #   license: licence name
 #   people:  none | unrecognisable | released   (released = model release confirmed, e.g. Unsplash+)
+#   review:  Claude's assessment after viewing (OK / CAUTION / AVOID + why)
 
 images:
   - file: bakgrund/klassrum-solljus.jpg
     url: https://images.unsplash.com/photo-1761532276195-5d975abae829?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/SBN9x6Tecxs
+    review: "OK – warm, Nordic-feeling classroom; good hook background"
     credit: "Foto: UThan Zaw / Unsplash"
     license: Unsplash License
     people: none
@@ -24,6 +26,7 @@ images:
     url: https://images.unsplash.com/photo-1549980384-d61217e50c4b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/IXTvnOOSTyU
+    review: "OK – dark rows of desks, lots of calm space for text"
     credit: "Foto: Rubén Rodriguez / Unsplash"
     license: Unsplash License
     people: none
@@ -32,6 +35,7 @@ images:
     url: https://images.unsplash.com/photo-1647424824945-d7d22200ac39?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/P5_OMnAVnl0
+    review: "OK – very dark corridor; good for bold white text, moody"
     credit: "Foto: Caitlin Taylor / Unsplash"
     license: Unsplash License
     people: none
@@ -40,6 +44,7 @@ images:
     url: https://images.unsplash.com/photo-1583170608577-b9c5f6495cdf?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/aI2AWLZ2XfM
+    review: "CAUTION – American-style lockers; stickers may show third-party characters/logos, crop or avoid close-ups"
     credit: "Foto: Clarissa Watson / Unsplash"
     license: Unsplash License
     people: none
@@ -48,6 +53,7 @@ images:
     url: https://images.unsplash.com/photo-1624533893664-c14248d3b498?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/hpKSHcvmhRk
+    review: "CAUTION – pink lockers fit the brand, but stickers may show third-party characters; check before use"
     credit: "Foto: Minha Baek / Unsplash"
     license: Unsplash License
     people: none
@@ -56,6 +62,7 @@ images:
     url: https://images.unsplash.com/photo-1568823577963-7f207be7f395?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/fOaQwoMxKXY
+    review: "OK – purple streamer, on-brand celebration/studenten feel"
     credit: "Foto: Matheus Frade / Unsplash"
     license: Unsplash License
     people: none
@@ -64,6 +71,7 @@ images:
     url: https://images.unsplash.com/photo-1551972873-b7e8754e8e26?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/u2ZhOJhJ3zE
+    review: "OK – busy confetti; needs strong overlay behind text"
     credit: "Foto: Matheus Frade / Unsplash"
     license: Unsplash License
     people: none
@@ -72,6 +80,7 @@ images:
     url: https://images.unsplash.com/photo-1656049471454-ff3c59812741?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/Rel6bBC6AuA
+    review: "AVOID – US dollar bill and coins (wrong currency for Sweden)"
     credit: "Foto: Katie Harp / Unsplash"
     license: Unsplash License
     people: none
@@ -80,6 +89,7 @@ images:
     url: https://images.unsplash.com/photo-1632849508137-3ef430962c8e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/vWcK7vkq_OE
+    review: "OK – pink piggy bank on black; key at the top collides with text at position top, use center/lower"
     credit: "Foto: Konstantin Evdokimov / Unsplash"
     license: Unsplash License
     people: none
@@ -88,6 +98,7 @@ images:
     url: https://images.unsplash.com/photo-1561837581-abd854e0ee22?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
     page: https://unsplash.com/photos/5f1RsK-pyZQ
+    review: "AVOID – US coins, vintage look off-brand"
     credit: "Foto: Diane Helentjaris / Unsplash"
     license: Unsplash License
     people: none
