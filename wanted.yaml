@@ -1,0 +1,93 @@
+# Images Claude wants in the media library.
+# On every push, .github/workflows/fetch-media.yml downloads new entries into media/
+# and records source/licence in media/CREDITS.md.
+#
+# Fields:
+#   file:    target file name under media/ (lowercase, hyphens)
+#   url:     direct download URL (for Unsplash: the URL returned by the connector's download_asset)
+#   source:  unsplash | commons | other
+#   page:    the photo's page (for credit and checking)
+#   credit:  credit line
+#   license: licence name
+#   people:  none | unrecognisable | released   (released = model release confirmed, e.g. Unsplash+)
+
+images:
+  - file: bakgrund/klassrum-solljus.jpg
+    url: https://images.unsplash.com/photo-1761532276195-5d975abae829?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/SBN9x6Tecxs
+    credit: "Foto: UThan Zaw / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/klassrum-stol.jpg
+    url: https://images.unsplash.com/photo-1549980384-d61217e50c4b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/IXTvnOOSTyU
+    credit: "Foto: Rubén Rodriguez / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/korridor-morker.jpg
+    url: https://images.unsplash.com/photo-1647424824945-d7d22200ac39?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/P5_OMnAVnl0
+    credit: "Foto: Caitlin Taylor / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skap-gra.jpg
+    url: https://images.unsplash.com/photo-1583170608577-b9c5f6495cdf?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/aI2AWLZ2XfM
+    credit: "Foto: Clarissa Watson / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skap-rosa.jpg
+    url: https://images.unsplash.com/photo-1624533893664-c14248d3b498?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/hpKSHcvmhRk
+    credit: "Foto: Minha Baek / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/konfetti-farg.jpg
+    url: https://images.unsplash.com/photo-1568823577963-7f207be7f395?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/fOaQwoMxKXY
+    credit: "Foto: Matheus Frade / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/konfetti-golv.jpg
+    url: https://images.unsplash.com/photo-1551972873-b7e8754e8e26?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/u2ZhOJhJ3zE
+    credit: "Foto: Matheus Frade / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-mynt.jpg
+    url: https://images.unsplash.com/photo-1656049471454-ff3c59812741?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/Rel6bBC6AuA
+    credit: "Foto: Katie Harp / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-rosa-mork.jpg
+    url: https://images.unsplash.com/photo-1632849508137-3ef430962c8e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/vWcK7vkq_OE
+    credit: "Foto: Konstantin Evdokimov / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-vintage.jpg
+    url: https://images.unsplash.com/photo-1561837581-abd854e0ee22?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/5f1RsK-pyZQ
+    credit: "Foto: Diane Helentjaris / Unsplash"
+    license: Unsplash License
+    people: none
