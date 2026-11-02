@@ -22,3 +22,11 @@
 | produkter/mandelskorpor/mandelskorpor-studio-01.jpg | piggo-own | Piggo – 2-pack Mandelskorpor (Cantuccini Toscani) | Piggo own photo | none |  |
 | produkter/vild-pepparmix/vild-pepparmix-studio-01.jpg | piggo-own | Piggo – Vild Pepparmix | Piggo own photo | none |  |
 | produkter/havssalt-chili-vitlok/havssalt-chili-vitlok-studio-01.jpg | piggo-own | Piggo – Havssalt Chili & Vitlök | Piggo own photo | none |  |
+| bakgrund/fonster-persienn-mork.jpg | unsplash | Foto: Safa / Unsplash | Unsplash License | none | https://unsplash.com/photos/qhwrPYmQ8YY |
+| bakgrund/skrivbord-kvall-bocker.jpg | unsplash | Foto: Yen Vu / Unsplash | Unsplash License | none | https://unsplash.com/photos/UlHSF20AHu0 |
+| bakgrund/fonster-ljusslinga.jpg | unsplash | Foto: laura adai / Unsplash | Unsplash License | none | https://unsplash.com/photos/CSXUqs5HVh0 |
+| bakgrund/skrivbordslampa-anteckningar.jpg | unsplash | Foto: Barney Goodman / Unsplash | Unsplash License | none | https://unsplash.com/photos/LOk7sNVCNJU |
+| bakgrund/mobil-tangentbord.jpg | unsplash | Foto: isaac. / Unsplash | Unsplash License | none | https://unsplash.com/photos/S-lDL_4Vzug |
+| bakgrund/bokstapel-vit.jpg | unsplash | Foto: Priscilla Du Preez / Unsplash | Unsplash License | none | https://unsplash.com/photos/FSLWtjqMa0c |
+| bakgrund/mobil-skrivbord-tra.jpg | unsplash | Foto: Amith Nair / Unsplash | Unsplash License | none | https://unsplash.com/photos/UxAyd6hJV0M |
+| bakgrund/obaddad-sang.jpg | unsplash | Foto: Jazmin Wong / Unsplash | Unsplash License | none | https://unsplash.com/photos/zCZiKrQZowg |
