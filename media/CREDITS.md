@@ -40,3 +40,6 @@
 | skolor/hvitfeldtska-goteborg.jpg | commons | Hvitfeldtska gymnasiet, Göteborg – foto: Historiker / Wikimedia Commons | CC BY-SA 3.0 | none | https://commons.wikimedia.org/wiki/File:Hvitfeldtska_gymnasiet_-_norra_byggnaden.JPG |
 | skolor/katedralskolan-linkoping-1915.jpg | commons | Katedralskolan, Linköping (1915) – foto: Fotograf: Okänd. Bild Linköping. / Wikimedia Commons | Public domain | none | https://commons.wikimedia.org/wiki/File:Katedralskolan%2C_Link%C3%B6ping_sedd_fr%C3%A5n_Gr%C3%A5br%C3%B6dragatan%2C_1915.jpg |
 | skolor/rudbeckianska-vasteras.jpg | commons | Rudbeckianska gymnasiet, Västerås – foto: Christer Johansson / Wikimedia Commons | CC BY-SA 2.5 | none | https://commons.wikimedia.org/wiki/File:Rudbeckianska_gymnasiet1001.jpg |
+| bakgrund/julklappar-golv.jpg | unsplash | Foto: Katya Azimova / Unsplash | Unsplash License | none | https://unsplash.com/photos/uBsEvSW3xhc |
+| bakgrund/strumpor.jpg | unsplash | Foto: Thái An / Unsplash | Unsplash License | none | https://unsplash.com/photos/zOFQ8v3YBBU |
+| bakgrund/kuvert-rod-stampel.jpg | unsplash | Foto: Valeria Reverdo / Unsplash | Unsplash License | none | https://unsplash.com/photos/rKluCY7dPN4 |
