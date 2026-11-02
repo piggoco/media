@@ -1,6 +1,381 @@
+# Images Claude wants in the media library.
+# On every push, .github/workflows/fetch-media.yml downloads new entries into media/
+# and records source/licence in media/CREDITS.md.
+#
+# Fields:
+#   file:    target file name under media/ (lowercase, hyphens)
+#   url:     direct download URL (for Unsplash: the URL returned by the connector's download_asset)
+#   source:  unsplash | commons | other
+#   page:    the photo's page (for credit and checking)
+#   credit:  credit line
+#   license: licence name
+#   people:  none | unrecognisable | released   (released = model release confirmed, e.g. Unsplash+)
+#   review:  Claude's assessment after viewing (OK / CAUTION / AVOID + why)
 
+images:
+  - file: bakgrund/klassrum-solljus.jpg
+    url: https://images.unsplash.com/photo-1761532276195-5d975abae829?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/SBN9x6Tecxs
+    review: "OK – warm, Nordic-feeling classroom; good hook background"
+    credit: "Foto: UThan Zaw / Unsplash"
+    license: Unsplash License
+    people: none
 
-  # --- 2026-W45 (idea 04 revision) ---
+  - file: bakgrund/klassrum-stol.jpg
+    url: https://images.unsplash.com/photo-1549980384-d61217e50c4b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/IXTvnOOSTyU
+    review: "OK – dark rows of desks, lots of calm space for text"
+    credit: "Foto: Rubén Rodriguez / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/korridor-morker.jpg
+    url: https://images.unsplash.com/photo-1647424824945-d7d22200ac39?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/P5_OMnAVnl0
+    review: "OK – very dark corridor; good for bold white text, moody"
+    credit: "Foto: Caitlin Taylor / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skap-gra.jpg
+    url: https://images.unsplash.com/photo-1583170608577-b9c5f6495cdf?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/aI2AWLZ2XfM
+    review: "CAUTION – American-style lockers; stickers may show third-party characters/logos, crop or avoid close-ups"
+    credit: "Foto: Clarissa Watson / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skap-rosa.jpg
+    url: https://images.unsplash.com/photo-1624533893664-c14248d3b498?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/hpKSHcvmhRk
+    review: "CAUTION – pink lockers fit the brand, but stickers may show third-party characters; check before use"
+    credit: "Foto: Minha Baek / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/konfetti-farg.jpg
+    url: https://images.unsplash.com/photo-1568823577963-7f207be7f395?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/fOaQwoMxKXY
+    review: "OK – purple streamer, on-brand celebration/studenten feel"
+    credit: "Foto: Matheus Frade / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/konfetti-golv.jpg
+    url: https://images.unsplash.com/photo-1551972873-b7e8754e8e26?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/u2ZhOJhJ3zE
+    review: "OK – busy confetti; needs strong overlay behind text"
+    credit: "Foto: Matheus Frade / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-mynt.jpg
+    url: https://images.unsplash.com/photo-1656049471454-ff3c59812741?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/Rel6bBC6AuA
+    review: "AVOID – US dollar bill and coins (wrong currency for Sweden)"
+    credit: "Foto: Katie Harp / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-rosa-mork.jpg
+    url: https://images.unsplash.com/photo-1632849508137-3ef430962c8e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/vWcK7vkq_OE
+    review: "OK – pink piggy bank on black; key at the top collides with text at position top, use center/lower"
+    credit: "Foto: Konstantin Evdokimov / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/spargris-vintage.jpg
+    url: https://images.unsplash.com/photo-1561837581-abd854e0ee22?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/5f1RsK-pyZQ
+    review: "AVOID – US coins, vintage look off-brand"
+    credit: "Foto: Diane Helentjaris / Unsplash"
+    license: Unsplash License
+    people: none
+
+  # --- Product photos (uploaded by the team 2026-11-02; no url = not downloaded) ---
+
+  - file: produkter/herrgardsljus/herrgardsljus-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Herrgårdsljus – vita kronljus med rött band"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/haxan-kokskit/haxan-kokskit-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Häxan Kökskit – Köksrent, Fönster & Glas, Diskmedel"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/haxan-badrumskit/haxan-badrumskit-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Häxan Badrumskit – Badrum, WC-rent, Antikalk"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/havssaltstryfflar/havssaltstryfflar-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Havssaltstryfflar – ask"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/havssaltstryfflar/havssaltstryfflar-studio-02.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Havssaltstryfflar – ask med tryfflar"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/olivolja/olivolja-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Olivolja La Chinata 750 ml"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/olivtval-handkram/olivtval-handkram-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Olivtvål & Handkräm"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/mandelskorpor/mandelskorpor-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – 2-pack Mandelskorpor (Cantuccini Toscani)"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/vild-pepparmix/vild-pepparmix-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Vild Pepparmix"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  - file: produkter/havssalt-chili-vitlok/havssalt-chili-vitlok-studio-01.jpg
+    source: piggo-own
+    page: ""
+    credit: "Piggo – Havssalt Chili & Vitlök"
+    license: "Piggo own photo"
+    people: none
+    review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  # --- 2026-W45 (ideas 04, 05) ---
+  - file: bakgrund/fonster-persienn-mork.jpg
+    url: https://images.unsplash.com/photo-1534432189786-f47e376dc8c7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/qhwrPYmQ8YY
+    credit: "Foto: Safa / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/skrivbord-kvall-bocker.jpg
+    url: https://images.unsplash.com/photo-1764096534662-a194a348c4a0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/UlHSF20AHu0
+    credit: "Foto: Yen Vu / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/fonster-ljusslinga.jpg
+    url: https://images.unsplash.com/photo-1608211194323-10b2dda88e25?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/CSXUqs5HVh0
+    credit: "Foto: laura adai / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/skrivbordslampa-anteckningar.jpg
+    url: https://images.unsplash.com/photo-1781690643160-73d0743dfbde?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/LOk7sNVCNJU
+    credit: "Foto: Barney Goodman / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/mobil-tangentbord.jpg
+    url: https://images.unsplash.com/photo-1696161654796-d096da9973b4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/S-lDL_4Vzug
+    credit: "Foto: isaac. / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "CAUTION – phone screen shows third-party app icons; prefer mobil-skrivbord-tra"
+
+  - file: bakgrund/bokstapel-vit.jpg
+    url: https://images.unsplash.com/photo-1585521549926-ca6526bda09e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/FSLWtjqMa0c
+    credit: "Foto: Priscilla Du Preez / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/mobil-skrivbord-tra.jpg
+    url: https://images.unsplash.com/photo-1635398235411-2c41ca32ffbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/UxAyd6hJV0M
+    credit: "Foto: Amith Nair / Unsplash"
+    license: Unsplash License
+    people: none
+    review: "OK – no people, fine as text background"
+
+  - file: bakgrund/obaddad-sang.jpg
+    url: https://images.unsplash.com/photo-1760574209767-22fc76ed928b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/zCZiKrQZowg
+    credit: "Foto: Jazmin Wong / Unsplash"
+    license: Unsplash License
+    people: none
+
+  # --- 2026-W45 (ideas 01, 02) – Wikimedia Commons. Licence/author filled in after the Action writes media/commons-meta/ ---
+    review: "OK – no people, fine as text background"
+
+  - file: skolor/ostra-real-stockholm.jpg
+    commons_file: "Östra_Reals_gymnasium.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:%C3%96stra_Reals_gymnasium.jpg
+    credit: "Östra Real, Stockholm – foto: Patrick Lönnberg / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: unrecognisable
+    review: "OK – used uncropped; small distant figures on the field judged not identifiable by the team (2026-11-02)"
+
+  - file: skolor/spyken-lund.jpg
+    commons_file: "SPYKEN_i_LUND.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:SPYKEN_i_LUND.jpg
+    credit: "Spyken, Lund – foto: Me. / Wikimedia Commons"
+    license: "CC0"
+    people: none
+    review: "OK – building exterior, no people"
+
+  - file: skolor/kungsholmens-gymnasium-stockholm.jpg
+    commons_file: "Kungsholmens_gymnasium.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Kungsholmens_gymnasium.jpg
+    credit: "Kungsholmens gymnasium, Stockholm – foto: Patrick Lönnberg / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – low res (1030 px); use fit-width, not full-bleed 9:16"
+
+  - file: skolor/sodra-latin-stockholm.jpg
+    commons_file: "Sodra_Latins_gymnasium.JPG"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Sodra_Latins_gymnasium.JPG
+    credit: "Södra Latin, Stockholm – foto: Helge Høifødt / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
+
+  - file: skolor/malmo-latinskola.jpg
+    commons_file: "Malmö_latinskola.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Malm%C3%B6_latinskola.jpg
+    credit: "Malmö latinskola – foto: jorchr / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
+
+  - file: skolor/katedralskolan-lund.jpg
+    commons_file: "Lund,_the_Katedralskolan,_front_to_Stora_Södergatan.JPG"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Lund%2C_the_Katedralskolan%2C_front_to_Stora_S%C3%B6dergatan.JPG
+    credit: "Katedralskolan, Lund – foto: Dguendel / Wikimedia Commons"
+    license: "CC BY 4.0"
+    people: unrecognisable
+    review: "OK – used uncropped; two pedestrians at street level judged not identifiable by the team (2026-11-02)"
+
+  - file: skolor/katedralskolan-uppsala.jpg
+    commons_file: "Katedralskolan_Uppsala_1.JPG"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Katedralskolan_Uppsala_1.JPG
+    credit: "Katedralskolan, Uppsala – foto: Wazzaa97 / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
+
+  - file: skolor/hvitfeldtska-goteborg.jpg
+    commons_file: "Hvitfeldtska_gymnasiet_-_norra_byggnaden.JPG"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Hvitfeldtska_gymnasiet_-_norra_byggnaden.JPG
+    credit: "Hvitfeldtska gymnasiet, Göteborg – foto: Historiker / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
+
+  - file: skolor/katedralskolan-linkoping-1915.jpg
+    commons_file: "Katedralskolan,_Linköping_sedd_från_Gråbrödragatan,_1915.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Katedralskolan%2C_Link%C3%B6ping_sedd_fr%C3%A5n_Gr%C3%A5br%C3%B6dragatan%2C_1915.jpg
+    credit: "Katedralskolan, Linköping (1915) – foto: Fotograf: Okänd. Bild Linköping. / Wikimedia Commons"
+    license: "Public domain"
+    people: none
+    review: "OK – historic 1915 photo, low res (1200 px); label as 'Foto från 1915'"
+
+  - file: skolor/rudbeckianska-vasteras.jpg
+    commons_file: "Rudbeckianska_gymnasiet1001.jpg"
+    source: commons
+    page: https://commons.wikimedia.org/wiki/File:Rudbeckianska_gymnasiet1001.jpg
+    credit: "Rudbeckianska gymnasiet, Västerås – foto: Christer Johansson / Wikimedia Commons"
+    license: "CC BY-SA 2.5"
+    people: none
+    review: "OK – building exterior, no people"
+
+  # --- 2026-W45 (new idea 03) ---
+  - file: bakgrund/julklappar-golv.jpg
+    url: https://images.unsplash.com/photo-1639562954924-1928f7cda17c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/uBsEvSW3xhc
+    credit: "Foto: Katya Azimova / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/strumpor.jpg
+    url: https://images.unsplash.com/photo-1582966772680-860e372bb558?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/zOFQ8v3YBBU
+    credit: "Foto: Thái An / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/kuvert-rod-stampel.jpg
+    url: https://images.unsplash.com/photo-1648994605501-fe0a391d2653?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/rKluCY7dPN4
+    credit: "Foto: Valeria Reverdo / Unsplash"
+    license: Unsplash License
+    people: none
+
+  # --- 2026-W45 (revisions of ideas 03 and 04) ---
   - file: bakgrund/vintergata-natt-sno.jpg
     url: https://images.unsplash.com/photo-1609650793481-55b352ac866a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
     source: unsplash
@@ -22,5 +397,13 @@
     source: unsplash
     page: https://unsplash.com/photos/4EQU-Z_6W3Y
     credit: "Foto: Myriam Olmz / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/julkort-gran.jpg
+    url: https://images.unsplash.com/photo-1702573234230-02fe53808a1d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/khghzs-oDQo
+    credit: "Foto: Sixteen Miles Out / Unsplash"
     license: Unsplash License
     people: none
