@@ -106,81 +106,81 @@ images:
   # --- Product photos (uploaded by the team 2026-11-02; no url = not downloaded) ---
 
   - file: produkter/herrgardsljus/herrgardsljus-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
     credit: "Piggo – Herrgårdsljus – vita kronljus med rött band"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/haxan-kokskit/haxan-kokskit-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
     credit: "Piggo – Häxan Kökskit – Köksrent, Fönster & Glas, Diskmedel"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/haxan-badrumskit/haxan-badrumskit-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
-    credit: "Piggo – Häxan – Badrum, WC-rent, Antikalk"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    credit: "Piggo – Häxan Badrumskit – Badrum, WC-rent, Antikalk"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/havssaltstryfflar/havssaltstryfflar-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
     credit: "Piggo – Havssaltstryfflar – ask"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/havssaltstryfflar/havssaltstryfflar-studio-02.jpg
-    source: piggo
+    source: piggo-own
     page: ""
     credit: "Piggo – Havssaltstryfflar – ask med tryfflar"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/olivolja/olivolja-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
     credit: "Piggo – Olivolja La Chinata 750 ml"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
-  - file: produkter/tval-handkram/tval-handkram-studio-01.jpg
-    source: piggo
+  - file: produkter/olivtval-handkram/olivtval-handkram-studio-01.jpg
+    source: piggo-own
     page: ""
-    credit: "Piggo – La Chinata tvål och handkräm"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    credit: "Piggo – Olivtvål & Handkräm"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
-  - file: produkter/cantuccini/cantuccini-studio-01.jpg
-    source: piggo
+  - file: produkter/mandelskorpor/mandelskorpor-studio-01.jpg
+    source: piggo-own
     page: ""
-    credit: "Piggo – Cantuccini Toscani (PratoBelli)"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    credit: "Piggo – 2-pack Mandelskorpor (Cantuccini Toscani)"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
-  - file: produkter/pepparmix/pepparmix-studio-01.jpg
-    source: piggo
+  - file: produkter/vild-pepparmix/vild-pepparmix-studio-01.jpg
+    source: piggo-own
     page: ""
-    credit: "Piggo – Add:Wise Pepparmix"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    credit: "Piggo – Vild Pepparmix"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
 
   - file: produkter/havssalt-chili-vitlok/havssalt-chili-vitlok-studio-01.jpg
-    source: piggo
+    source: piggo-own
     page: ""
-    credit: "Piggo – Add:Wise Havssalt chili & vitlök"
-    license: "Piggo product photo [BEKRÄFTA source/rights]"
+    credit: "Piggo – Havssalt Chili & Vitlök"
+    license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"

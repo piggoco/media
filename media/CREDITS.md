@@ -12,13 +12,13 @@
 | bakgrund/spargris-mynt.jpg | unsplash | Foto: Katie Harp / Unsplash | Unsplash License | none | https://unsplash.com/photos/Rel6bBC6AuA |
 | bakgrund/spargris-rosa-mork.jpg | unsplash | Foto: Konstantin Evdokimov / Unsplash | Unsplash License | none | https://unsplash.com/photos/vWcK7vkq_OE |
 | bakgrund/spargris-vintage.jpg | unsplash | Foto: Diane Helentjaris / Unsplash | Unsplash License | none | https://unsplash.com/photos/5f1RsK-pyZQ |
-| produkter/herrgardsljus/herrgardsljus-studio-01.jpg | piggo | Piggo – Herrgårdsljus – vita kronljus med rött band | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/haxan-kokskit/haxan-kokskit-studio-01.jpg | piggo | Piggo – Häxan Kökskit – Köksrent, Fönster & Glas, Diskmedel | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/haxan-badrumskit/haxan-badrumskit-studio-01.jpg | piggo | Piggo – Häxan – Badrum, WC-rent, Antikalk | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/havssaltstryfflar/havssaltstryfflar-studio-01.jpg | piggo | Piggo – Havssaltstryfflar – ask | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/havssaltstryfflar/havssaltstryfflar-studio-02.jpg | piggo | Piggo – Havssaltstryfflar – ask med tryfflar | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/olivolja/olivolja-studio-01.jpg | piggo | Piggo – Olivolja La Chinata 750 ml | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/tval-handkram/tval-handkram-studio-01.jpg | piggo | Piggo – La Chinata tvål och handkräm | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/cantuccini/cantuccini-studio-01.jpg | piggo | Piggo – Cantuccini Toscani (PratoBelli) | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/pepparmix/pepparmix-studio-01.jpg | piggo | Piggo – Add:Wise Pepparmix | Piggo product photo [BEKRÄFTA source/rights] | none |  |
-| produkter/havssalt-chili-vitlok/havssalt-chili-vitlok-studio-01.jpg | piggo | Piggo – Add:Wise Havssalt chili & vitlök | Piggo product photo [BEKRÄFTA source/rights] | none |  |
+| produkter/herrgardsljus/herrgardsljus-studio-01.jpg | piggo-own | Piggo – Herrgårdsljus – vita kronljus med rött band | Piggo own photo | none |  |
+| produkter/haxan-kokskit/haxan-kokskit-studio-01.jpg | piggo-own | Piggo – Häxan Kökskit – Köksrent, Fönster & Glas, Diskmedel | Piggo own photo | none |  |
+| produkter/haxan-badrumskit/haxan-badrumskit-studio-01.jpg | piggo-own | Piggo – Häxan Badrumskit – Badrum, WC-rent, Antikalk | Piggo own photo | none |  |
+| produkter/havssaltstryfflar/havssaltstryfflar-studio-01.jpg | piggo-own | Piggo – Havssaltstryfflar – ask | Piggo own photo | none |  |
+| produkter/havssaltstryfflar/havssaltstryfflar-studio-02.jpg | piggo-own | Piggo – Havssaltstryfflar – ask med tryfflar | Piggo own photo | none |  |
+| produkter/olivolja/olivolja-studio-01.jpg | piggo-own | Piggo – Olivolja La Chinata 750 ml | Piggo own photo | none |  |
+| produkter/olivtval-handkram/olivtval-handkram-studio-01.jpg | piggo-own | Piggo – Olivtvål & Handkräm | Piggo own photo | none |  |
+| produkter/mandelskorpor/mandelskorpor-studio-01.jpg | piggo-own | Piggo – 2-pack Mandelskorpor (Cantuccini Toscani) | Piggo own photo | none |  |
+| produkter/vild-pepparmix/vild-pepparmix-studio-01.jpg | piggo-own | Piggo – Vild Pepparmix | Piggo own photo | none |  |
+| produkter/havssalt-chili-vitlok/havssalt-chili-vitlok-studio-01.jpg | piggo-own | Piggo – Havssalt Chili & Vitlök | Piggo own photo | none |  |
