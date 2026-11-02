@@ -184,3 +184,68 @@ images:
     license: "Piggo own photo"
     people: none
     review: "OK – studio shot on light grey background, square 2200–2600 px; product label/brand visible"
+
+  # --- 2026-W45 (ideas 04, 05) ---
+  - file: bakgrund/fonster-persienn-mork.jpg
+    url: https://images.unsplash.com/photo-1534432189786-f47e376dc8c7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/qhwrPYmQ8YY
+    credit: "Foto: Safa / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skrivbord-kvall-bocker.jpg
+    url: https://images.unsplash.com/photo-1764096534662-a194a348c4a0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/UlHSF20AHu0
+    credit: "Foto: Yen Vu / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/fonster-ljusslinga.jpg
+    url: https://images.unsplash.com/photo-1608211194323-10b2dda88e25?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/CSXUqs5HVh0
+    credit: "Foto: laura adai / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/skrivbordslampa-anteckningar.jpg
+    url: https://images.unsplash.com/photo-1781690643160-73d0743dfbde?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/LOk7sNVCNJU
+    credit: "Foto: Barney Goodman / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/mobil-tangentbord.jpg
+    url: https://images.unsplash.com/photo-1696161654796-d096da9973b4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/S-lDL_4Vzug
+    credit: "Foto: isaac. / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/bokstapel-vit.jpg
+    url: https://images.unsplash.com/photo-1585521549926-ca6526bda09e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/FSLWtjqMa0c
+    credit: "Foto: Priscilla Du Preez / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/mobil-skrivbord-tra.jpg
+    url: https://images.unsplash.com/photo-1635398235411-2c41ca32ffbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/UxAyd6hJV0M
+    credit: "Foto: Amith Nair / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/obaddad-sang.jpg
+    url: https://images.unsplash.com/photo-1760574209767-22fc76ed928b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/zCZiKrQZowg
+    credit: "Foto: Jazmin Wong / Unsplash"
+    license: Unsplash License
+    people: none
