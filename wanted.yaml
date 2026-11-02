@@ -193,6 +193,7 @@ images:
     credit: "Foto: Safa / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/skrivbord-kvall-bocker.jpg
     url: https://images.unsplash.com/photo-1764096534662-a194a348c4a0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -201,6 +202,7 @@ images:
     credit: "Foto: Yen Vu / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/fonster-ljusslinga.jpg
     url: https://images.unsplash.com/photo-1608211194323-10b2dda88e25?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -209,6 +211,7 @@ images:
     credit: "Foto: laura adai / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/skrivbordslampa-anteckningar.jpg
     url: https://images.unsplash.com/photo-1781690643160-73d0743dfbde?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -217,6 +220,7 @@ images:
     credit: "Foto: Barney Goodman / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/mobil-tangentbord.jpg
     url: https://images.unsplash.com/photo-1696161654796-d096da9973b4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -225,6 +229,7 @@ images:
     credit: "Foto: isaac. / Unsplash"
     license: Unsplash License
     people: none
+    review: "CAUTION – phone screen shows third-party app icons; prefer mobil-skrivbord-tra"
 
   - file: bakgrund/bokstapel-vit.jpg
     url: https://images.unsplash.com/photo-1585521549926-ca6526bda09e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -233,6 +238,7 @@ images:
     credit: "Foto: Priscilla Du Preez / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/mobil-skrivbord-tra.jpg
     url: https://images.unsplash.com/photo-1635398235411-2c41ca32ffbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -241,6 +247,7 @@ images:
     credit: "Foto: Amith Nair / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – no people, fine as text background"
 
   - file: bakgrund/obaddad-sang.jpg
     url: https://images.unsplash.com/photo-1760574209767-22fc76ed928b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -251,82 +258,94 @@ images:
     people: none
 
   # --- 2026-W45 (ideas 01, 02) – Wikimedia Commons. Licence/author filled in after the Action writes media/commons-meta/ ---
+    review: "OK – no people, fine as text background"
+
   - file: skolor/ostra-real-stockholm.jpg
     commons_file: "Östra_Reals_gymnasium.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:%C3%96stra_Reals_gymnasium.jpg
-    credit: "Östra Real, Stockholm – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Östra Real, Stockholm – foto: Patrick Lönnberg / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: unrecognisable
+    review: "OK – CROP top 68 % only (children playing on the field)"
 
   - file: skolor/spyken-lund.jpg
     commons_file: "SPYKEN_i_LUND.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:SPYKEN_i_LUND.jpg
-    credit: "Spyken, Lund – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Spyken, Lund – foto: Me. / Wikimedia Commons"
+    license: "CC0"
+    people: none
+    review: "OK – building exterior, no people"
 
   - file: skolor/kungsholmens-gymnasium-stockholm.jpg
     commons_file: "Kungsholmens_gymnasium.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Kungsholmens_gymnasium.jpg
-    credit: "Kungsholmens gymnasium, Stockholm – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Kungsholmens gymnasium, Stockholm – foto: Patrick Lönnberg / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – low res (1030 px); use fit-width, not full-bleed 9:16"
 
   - file: skolor/sodra-latin-stockholm.jpg
     commons_file: "Sodra_Latins_gymnasium.JPG"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Sodra_Latins_gymnasium.JPG
-    credit: "Södra Latin, Stockholm – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Södra Latin, Stockholm – foto: Helge Høifødt / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
 
   - file: skolor/malmo-latinskola.jpg
     commons_file: "Malmö_latinskola.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Malm%C3%B6_latinskola.jpg
-    credit: "Malmö latinskola – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Malmö latinskola – foto: jorchr / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
 
   - file: skolor/katedralskolan-lund.jpg
     commons_file: "Lund,_the_Katedralskolan,_front_to_Stora_Södergatan.JPG"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Lund%2C_the_Katedralskolan%2C_front_to_Stora_S%C3%B6dergatan.JPG
-    credit: "Katedralskolan, Lund – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Katedralskolan, Lund – foto: Dguendel / Wikimedia Commons"
+    license: "CC BY 4.0"
+    people: unrecognisable
+    review: "OK – CROP top 70 % only (two identifiable pedestrians at street level)"
 
   - file: skolor/katedralskolan-uppsala.jpg
     commons_file: "Katedralskolan_Uppsala_1.JPG"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Katedralskolan_Uppsala_1.JPG
-    credit: "Katedralskolan, Uppsala – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Katedralskolan, Uppsala – foto: Wazzaa97 / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
 
   - file: skolor/hvitfeldtska-goteborg.jpg
     commons_file: "Hvitfeldtska_gymnasiet_-_norra_byggnaden.JPG"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Hvitfeldtska_gymnasiet_-_norra_byggnaden.JPG
-    credit: "Hvitfeldtska gymnasiet, Göteborg – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Hvitfeldtska gymnasiet, Göteborg – foto: Historiker / Wikimedia Commons"
+    license: "CC BY-SA 3.0"
+    people: none
+    review: "OK – building exterior, no people"
 
   - file: skolor/katedralskolan-linkoping-1915.jpg
     commons_file: "Katedralskolan,_Linköping_sedd_från_Gråbrödragatan,_1915.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Katedralskolan%2C_Link%C3%B6ping_sedd_fr%C3%A5n_Gr%C3%A5br%C3%B6dragatan%2C_1915.jpg
-    credit: "Katedralskolan, Linköping (1915) – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Katedralskolan, Linköping (1915) – foto: Fotograf: Okänd. Bild Linköping. / Wikimedia Commons"
+    license: "Public domain"
+    people: none
+    review: "OK – historic 1915 photo, low res (1200 px); label as 'Foto från 1915'"
 
   - file: skolor/rudbeckianska-vasteras.jpg
     commons_file: "Rudbeckianska_gymnasiet1001.jpg"
     source: commons
     page: https://commons.wikimedia.org/wiki/File:Rudbeckianska_gymnasiet1001.jpg
-    credit: "Rudbeckianska gymnasiet, Västerås – fotograf: KONTROLLERA / Wikimedia Commons"
-    license: KONTROLLERA
-    people: KONTROLLERA
+    credit: "Rudbeckianska gymnasiet, Västerås – foto: Christer Johansson / Wikimedia Commons"
+    license: "CC BY-SA 2.5"
+    people: none
+    review: "OK – building exterior, no people"
