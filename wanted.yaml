@@ -267,7 +267,7 @@ images:
     credit: "Östra Real, Stockholm – foto: Patrick Lönnberg / Wikimedia Commons"
     license: "CC BY-SA 3.0"
     people: unrecognisable
-    review: "OK – CROP top 68 % only (children playing on the field)"
+    review: "OK – used uncropped; small distant figures on the field judged not identifiable by the team (2026-11-02)"
 
   - file: skolor/spyken-lund.jpg
     commons_file: "SPYKEN_i_LUND.jpg"
@@ -312,7 +312,7 @@ images:
     credit: "Katedralskolan, Lund – foto: Dguendel / Wikimedia Commons"
     license: "CC BY 4.0"
     people: unrecognisable
-    review: "OK – CROP top 70 % only (two identifiable pedestrians at street level)"
+    review: "OK – used uncropped; two pedestrians at street level judged not identifiable by the team (2026-11-02)"
 
   - file: skolor/katedralskolan-uppsala.jpg
     commons_file: "Katedralskolan_Uppsala_1.JPG"
@@ -349,3 +349,28 @@ images:
     license: "CC BY-SA 2.5"
     people: none
     review: "OK – building exterior, no people"
+
+  # --- 2026-W45 (new idea 03) ---
+  - file: bakgrund/julklappar-golv.jpg
+    url: https://images.unsplash.com/photo-1639562954924-1928f7cda17c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/uBsEvSW3xhc
+    credit: "Foto: Katya Azimova / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/strumpor.jpg
+    url: https://images.unsplash.com/photo-1582966772680-860e372bb558?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/zOFQ8v3YBBU
+    credit: "Foto: Thái An / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/kuvert-rod-stampel.jpg
+    url: https://images.unsplash.com/photo-1648994605501-fe0a391d2653?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/rKluCY7dPN4
+    credit: "Foto: Valeria Reverdo / Unsplash"
+    license: Unsplash License
+    people: none
