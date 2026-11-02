@@ -43,3 +43,7 @@
 | bakgrund/julklappar-golv.jpg | unsplash | Foto: Katya Azimova / Unsplash | Unsplash License | none | https://unsplash.com/photos/uBsEvSW3xhc |
 | bakgrund/strumpor.jpg | unsplash | Foto: Thái An / Unsplash | Unsplash License | none | https://unsplash.com/photos/zOFQ8v3YBBU |
 | bakgrund/kuvert-rod-stampel.jpg | unsplash | Foto: Valeria Reverdo / Unsplash | Unsplash License | none | https://unsplash.com/photos/rKluCY7dPN4 |
+| bakgrund/vintergata-natt-sno.jpg | unsplash | Foto: Josh Hild / Unsplash | Unsplash License | none | https://unsplash.com/photos/OpkZfKoYHFE |
+| bakgrund/julgran-kulor.jpg | unsplash | Foto: Annie Spratt / Unsplash | Unsplash License | none | https://unsplash.com/photos/Z9Ds4w141i4 |
+| bakgrund/julgran-narbild.jpg | unsplash | Foto: Myriam Olmz / Unsplash | Unsplash License | none | https://unsplash.com/photos/4EQU-Z_6W3Y |
+| bakgrund/julkort-gran.jpg | unsplash | Foto: Sixteen Miles Out / Unsplash | Unsplash License | none | https://unsplash.com/photos/khghzs-oDQo |
