@@ -28,7 +28,7 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      - run: python scripts/fetch_sound_trends.py
+      - run: python scripts/probe_cc.py; python scripts/fetch_sound_trends.py
 
       - name: Commit trend files
         run: |
