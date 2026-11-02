@@ -35,7 +35,11 @@ def main():
         )
         page = ctx.new_page()
 
+        seen = []
+
         def on_request(req):
+            if req.resource_type in ("xhr", "fetch"):
+                seen.append(req.url)
             if API_PART in req.url and "url" not in captured:
                 captured["url"] = req.url
                 captured["headers"] = req.headers
@@ -48,6 +52,10 @@ def main():
             page.wait_for_timeout(1000)
         if "url" not in captured:
             print("Could not capture the Creative Center API request. Page title:", page.title())
+            print("Final URL:", page.url)
+            print("XHR/fetch requests seen:")
+            for u in seen[:60]:
+                print("  ", u[:200])
             print(page.inner_text("body")[:1500])
             sys.exit(1)
         print("Captured:", captured["url"])
