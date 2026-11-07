@@ -47,3 +47,4 @@
 | bakgrund/julgran-kulor.jpg | unsplash | Foto: Annie Spratt / Unsplash | Unsplash License | none | https://unsplash.com/photos/Z9Ds4w141i4 |
 | bakgrund/julgran-narbild.jpg | unsplash | Foto: Myriam Olmz / Unsplash | Unsplash License | none | https://unsplash.com/photos/4EQU-Z_6W3Y |
 | bakgrund/julkort-gran.jpg | unsplash | Foto: Sixteen Miles Out / Unsplash | Unsplash License | none | https://unsplash.com/photos/khghzs-oDQo |
+| bakgrund/mugg-solljus.jpg | unsplash | Foto: Sebastian Schuster / Unsplash | Unsplash License | none | https://unsplash.com/photos/Pa6FKpPJOGw |
