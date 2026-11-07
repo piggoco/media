@@ -1,0 +1,49 @@
+# 2026-W46-06 · Facebook · Sortimentskarusell (Test, post 1) · "Julklappar som säljer sig själva"
+# Priser och "gruppen behåller" exakt enligt 01-brand-voice.md (kontrollerat 2 nov 2026)
+type: carousel
+format: post
+output: out/W46/2026-W46-06-fb-karusell
+counter: false
+sound: none
+slides:
+  - background: { image: "media:bakgrund/julklappar-golv.jpg", overlay: 0.55 }
+    texts:
+      - { text: "Julklappar som säljer sig själva", style: headline }
+      - { text: "Fem produkter er klass eller ert lag kan sälja i jul", style: body }
+  - &card
+    background: { image: "assets/media/w46/herrgardsljus-post.jpg", overlay: 0, dark: false }
+    logo: false
+    decor: false
+    position: bottom   # texten under produktbilden
+    texts:
+      - { text: "Herrgårdsljus · 149 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 60–75 kr per förpackning", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/tryfflar-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Havssaltstryfflar · 149 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 60–75 kr per ask", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/olivolja-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Olivolja 750 ml · 159 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 64–80 kr per flaska", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/mandelskorpor-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "2-pack Mandelskorpor · 159 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 64–80 kr per 2-pack", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/kokskit-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Häxan Kökskit · 209 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 84–105 kr per kit", style: body, size: 0.9 }
+  - background: purple
+    texts:
+      - { text: "Upp till 50 %\ntill kassan", style: headline }
+      - { text: "Ingen startkostnad", style: highlight }
+      - { text: "Osålda produkter beställs aldrig", style: body }
+  - endcard: true
+    texts:
+      - { text: "Starta på piggo.se", style: title }
+      - { text: "Hela sortimentet finns där", style: pill }

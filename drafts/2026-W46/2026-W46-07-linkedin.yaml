@@ -1,0 +1,51 @@
+# 2026-W46-07 · LinkedIn dokument (PDF) · Räkneexempel (Test, post 2) · per produkt
+type: carousel
+format: square
+output: out/W46/2026-W46-07-linkedin
+counter: false
+pdf: true
+sound: none
+slides:
+  - background: purple
+    texts:
+      - { text: "Vad tjänar klassen på julförsäljningen?", style: headline }
+      - { text: "Räknat per produkt", style: highlight }
+  - background: tint
+    texts:
+      - { text: "Gruppen behåller upp till 50 %", style: title }
+      - { text: "40 % vid 1–99 sålda", style: body }
+      - { text: "45 % vid 100–199 sålda", style: body }
+      - { text: "50 % från 200 sålda", style: body }
+  - &card
+    background: { image: "assets/media/w46/herrgardsljus-square.jpg", overlay: 0, dark: false }
+    logo: false
+    decor: false
+    position: bottom
+    texts:
+      - { text: "Herrgårdsljus · 149 kr", style: title, size: 0.85 }
+      - { text: "Klassen behåller 60–75 kr per såld", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/tryfflar-square.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Havssaltstryfflar · 149 kr", style: title, size: 0.85 }
+      - { text: "Klassen behåller 60–75 kr per såld", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/olivolja-square.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Olivolja 750 ml · 159 kr", style: title, size: 0.85 }
+      - { text: "Klassen behåller 64–80 kr per såld", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w46/kokskit-square.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Häxan Kökskit · 209 kr", style: title, size: 0.85 }
+      - { text: "Klassen behåller 84–105 kr per såld", style: body, size: 0.9 }
+  - background: purple
+    texts:
+      - { text: "Exempel", style: pill }
+      - { text: "25 säljare × 15 produkter", style: title }
+      - { text: "ca 30 000 kr", style: big-number, size: 0.8 }
+      - { text: "till klasskassan", style: body }
+  - endcard: true
+    texts:
+      - { text: "Ingen startkostnad. Osålda produkter beställs aldrig.", style: body }
+      - { text: "piggo.se", style: pill }

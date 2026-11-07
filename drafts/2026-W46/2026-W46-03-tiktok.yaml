@@ -1,0 +1,38 @@
+# 2026-W46-03 · TikTok · Studietips (Test, post 2) som bildspel (auto-musik)
+type: carousel
+format: reel
+native: true
+output: out/W46/2026-W46-03-tiktok
+sound: auto
+slides:
+  - background: { image: "media:bakgrund/obaddad-sang.jpg" }
+    texts:
+      - { text: "Så pluggar du när du inte orkar alls", size: 1.7 }
+  - background: { image: "media:bakgrund/mobil-skrivbord-tra.jpg" }
+    texts:
+      - { text: "1. Lägg mobilen i ett annat rum", size: 1.5 }
+      - { text: "Inte bara upp och ner", size: 1.2 }
+  - background: { image: "media:bakgrund/skrivbordslampa-anteckningar.jpg" }
+    texts:
+      - { text: "2. Sätt en timer på 10 minuter", size: 1.5 }
+      - { text: "Det svåra är att börja", size: 1.2 }
+  - background: { image: "media:bakgrund/bokstapel-vit.jpg" }
+    texts:
+      - { text: "3. Börja med det lättaste", size: 1.5 }
+      - { text: "Snabba vinster ger fart", size: 1.2 }
+  - background: { image: "media:bakgrund/skrivbord-kvall-bocker.jpg" }
+    texts:
+      - { text: "4. Förklara det högt för dig själv", size: 1.5 }
+      - { text: "Där du fastnar är det du ska plugga på", size: 1.2 }
+  - background: { image: "media:bakgrund/klassrum-stol.jpg" }
+    texts:
+      - { text: "5. Plugga inte i sängen", size: 1.5 }
+      - { text: "Hjärnan tror att det är dags att sova", size: 1.2 }
+  - background: { image: "media:bakgrund/klassrum-solljus.jpg" }
+    texts:
+      - { text: "Spara till nästa prov", size: 1.8 }
+      - { text: "Vilket tips funkar för dig?", size: 1.2 }
+  - endcard: true
+    texts:
+      - { text: "Följ för fler plugghacks", style: title }
+      - { text: "Piggo – fyll klasskassan", style: pill }

@@ -1,0 +1,31 @@
+# 2026-W46-08 · Facebook · Säljtips-karusell (nytt format) · för lagledare/föräldrar att vidarebefordra
+type: carousel
+format: post
+output: out/W46/2026-W46-08-fb-karusell
+counter: false
+sound: none
+slides:
+  - background: purple
+    texts:
+      - { text: "4 tips som får fler att handla i julförsäljningen", style: headline }
+      - { text: "Dela med säljarna i klassen eller laget", style: highlight }
+  - background: { image: "media:bakgrund/mobil-skrivbord-tra.jpg", overlay: 0.6 }
+    texts:
+      - { text: "1. Skicka länken personligt", style: title }
+      - { text: "Ett eget meddelande till mormor slår ett inlägg i en stor grupp.", style: body }
+  - background: { image: "media:bakgrund/konfetti-farg.jpg", overlay: 0.6 }
+    texts:
+      - { text: "2. Berätta vad pengarna ska gå till", style: title }
+      - { text: "Klassresa, cupen eller studenten? Folk köper hellre när de vet.", style: body }
+  - background: { image: "media:bakgrund/julklappar-golv.jpg", overlay: 0.6 }
+    texts:
+      - { text: "3. Föreslå en julklapp", style: title }
+      - { text: "Tryfflar till värden, ljus till farmor. Gör valet enkelt.", style: body }
+  - background: { image: "media:bakgrund/julkort-gran.jpg", overlay: 0.6 }
+    texts:
+      - { text: "4. Påminn en gång", style: title }
+      - { text: "Ett vänligt \"sista chansen\" räcker. Ingen gillar tjat.", style: body }
+  - endcard: true
+    texts:
+      - { text: "Spara till säljstarten", style: title }
+      - { text: "piggo.se", style: pill }

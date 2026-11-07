@@ -1,0 +1,32 @@
+# 2026-W46-02 · TikTok · Relaterbart student-slideshow (Behåll) · "POV: du har hand om studentkassan"
+type: carousel
+format: reel
+native: true
+output: out/W46/2026-W46-02-tiktok
+sound: auto
+slides:
+  - background: { image: "media:bakgrund/mobil-skrivbord-tra.jpg" }
+    texts:
+      - { text: "POV: det är du som har hand om studentkassan", size: 1.7 }
+  - background: { image: "media:bakgrund/konfetti-farg.jpg" }
+    texts:
+      - { text: "Alla har åsikter om flaket", size: 1.5 }
+      - { text: "Ingen har swishat", size: 1.2 }
+  - background: { image: "media:bakgrund/skrivbord-kvall-bocker.jpg" }
+    texts:
+      - { text: "Du har ett kalkylark med 14 flikar", size: 1.5 }
+  - background: { image: "media:bakgrund/klassrum-stol.jpg" }
+    texts:
+      - { text: "\"Vi kan väl bara sälja något?\"", size: 1.5 }
+      - { text: "sa alla. Ingen gjorde något.", size: 1.2 }
+  - background: { image: "media:bakgrund/skrivbordslampa-anteckningar.jpg" }
+    texts:
+      - { text: "Du räknar på det klockan ett på natten", size: 1.5 }
+  - background: { image: "media:bakgrund/klassrum-solljus.jpg" }
+    texts:
+      - { text: "Håller ni med?", size: 1.8 }
+      - { text: "Tagga er kassör", size: 1.2 }
+  - endcard: true
+    texts:
+      - { text: "Ska ni ha en maxad student?", style: title }
+      - { text: "Fyll kassan med Piggo", style: pill }

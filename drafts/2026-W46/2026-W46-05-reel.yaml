@@ -1,0 +1,44 @@
+# 2026-W46-05 · IG Reel + Facebook · Myt vs fakta (Test, post 1) · branded (FB/IG-publik)
+type: video
+format: reel
+output: out/W46/2026-W46-05-reel.mp4
+transition: fade
+sound: { ig: "väljs vid schemaläggning", search: "upbeat positive" }
+scenes:
+  - duration: 2.8
+    background: purple
+    texts:
+      - { text: "3 myter om klassförsäljning", style: headline }
+      - { text: "som stoppar många klasser och lag", style: body }
+  - duration: 4.6
+    background: tint
+    texts:
+      - { text: "Myt", style: pill }
+      - { text: "Vi måste köpa in varor först", style: title }
+      - { text: "Fakta", style: pill, delay: 1.4 }
+      - { text: "Ni lägger inte ut en krona. Osålda produkter beställs aldrig.", style: body, delay: 1.7 }
+  - duration: 4.6
+    background: tint
+    texts:
+      - { text: "Myt", style: pill }
+      - { text: "Någon måste samla in pengarna", style: title }
+      - { text: "Fakta", style: pill, delay: 1.4 }
+      - { text: "Kunderna swishar. Pengarna går direkt till gruppens konto.", style: body, delay: 1.7 }
+  - duration: 4.6
+    background: tint
+    texts:
+      - { text: "Myt", style: pill }
+      - { text: "Man måste sälja ett visst antal", style: title }
+      - { text: "Fakta", style: pill, delay: 1.4 }
+      - { text: "Inga minimikrav. Under 25 sålda produkter tillkommer en fraktavgift.", style: body, delay: 1.7 }
+  - duration: 3.2
+    background: purple
+    texts:
+      - { text: "Upp till", style: title }
+      - { text: "50 %", style: big-number }
+      - { text: "av försäljningen går till kassan", style: body }
+  - duration: 3.2
+    endcard: true
+    texts:
+      - { text: "Starta på piggo.se", style: title }
+      - { text: "Ingen startkostnad", style: pill }

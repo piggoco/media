@@ -1,0 +1,52 @@
+# 2026-W46-01 · IG-karusell 4:5 av skol-slideshowen "Så gamla är Sveriges äldsta gymnasieskolor"
+# (TikTok-versionen = W45-02, färdig och godkänd men publiceringen misslyckades 6/11 – se rapport)
+# Skolbilder hela (06: aldrig beskurna) -> komposit via compose.py; text överst ovanför fotot.
+type: carousel
+format: post
+native: true
+output: out/W46/2026-W46-01-ig-karusell
+sound: none   # IG-karusell: ingen musik via API
+slides:
+  - background: { image: "assets/media/w46/lund-post.jpg", overlay: 0 }
+    position: top   # fotot är skälet – texten ovanför
+    texts:
+      - { text: "Så gamla är Sveriges äldsta gymnasieskolor", size: 1.35 }
+  - background: { image: "assets/media/w46/lund-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Katedralskolan, Lund", size: 1.25 }
+      - { text: "Anor från 1085", size: 0.95 }
+  - background: { image: "assets/media/w46/uppsala-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Katedralskolan, Uppsala", size: 1.25 }
+      - { text: "Anor från 1200-talet", size: 0.95 }
+  - background: { image: "assets/media/w46/malmo-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Malmö latinskola", size: 1.25 }
+      - { text: "Anor från 1406", size: 0.95 }
+  - background: { image: "assets/media/w46/vasteras-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Rudbeckianska, Västerås", size: 1.25 }
+      - { text: "Sveriges första gymnasium 1623", size: 0.95 }
+  - background: { image: "assets/media/w46/linkoping-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Katedralskolan, Linköping", size: 1.25 }
+      - { text: "Gymnasium sedan 1627", size: 0.95 }
+  - background: { image: "assets/media/w46/goteborg-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Hvitfeldtska, Göteborg", size: 1.25 }
+      - { text: "Grundad 1647", size: 0.95 }
+  - background: { image: "assets/media/w46/uppsala-post.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Hur gammal är din skola?", size: 1.45 }
+      - { text: "Skriv i kommentarerna", size: 1.0 }
+  - endcard: true
+    texts:
+      - { text: "Ska ni ha en maxad student?", style: title, size: 0.9 }
+      - { text: "Fyll kassan med Piggo", style: pill }
