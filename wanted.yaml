@@ -407,3 +407,11 @@ images:
     credit: "Foto: Sixteen Miles Out / Unsplash"
     license: Unsplash License
     people: none
+
+  - file: bakgrund/mugg-solljus.jpg
+    url: https://images.unsplash.com/photo-1782177628371-1dd6b3bc576f?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/Pa6FKpPJOGw
+    credit: "Foto: Sebastian Schuster / Unsplash"
+    license: Unsplash License
+    people: none
