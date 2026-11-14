@@ -1,0 +1,79 @@
+# 2026-W47-02 · Instagram Reel · Studietips (Test, post 3) – samma texter som TikTok
+type: video
+format: reel
+native: true
+output: out/W47/2026-W47-02-ig-reel.mp4
+transition: fade
+sound:
+  ig: väljs vid schemaläggning
+  search: lofi study
+scenes:
+- background:
+    image: media:bakgrund/skrivbord-kvall-bocker.jpg
+    zoom: true
+  texts:
+  - text: Provveckan innan jullovet? Gör så här
+    size: 1.7
+  duration: 2.8
+- background:
+    image: media:bakgrund/bokstapel-vit.jpg
+    zoom: true
+  texts:
+  - text: 1. Skriv upp alla prov på en lapp
+    size: 1.5
+  - text: Då ser du vad som brinner först
+    size: 1.2
+  duration: 3.4
+- background:
+    image: media:bakgrund/mugg-solljus.jpg
+    zoom: true
+  position: 0.27
+  texts:
+  - text: 2. Plugga 25 minuter, vila 5
+    size: 1.5
+  - text: Korta pass orkar man fler av
+    size: 1.2
+  duration: 3.4
+- background:
+    image: media:bakgrund/skrivbordslampa-anteckningar.jpg
+    zoom: true
+  texts:
+  - text: 3. Gör gamla prov i stället för att läsa om
+    size: 1.5
+  - text: Att plocka fram svaret fastnar bättre
+    size: 1.2
+  duration: 3.4
+- background:
+    image: media:bakgrund/mobil-skrivbord-tra.jpg
+    zoom: true
+  texts:
+  - text: 4. Förhör en kompis i 15 minuter
+    size: 1.5
+  - text: Och låt kompisen förhöra dig
+    size: 1.2
+  duration: 3.4
+- background:
+    image: media:bakgrund/obaddad-sang.jpg
+    zoom: true
+  texts:
+  - text: 5. Sov natten före provet
+    size: 1.5
+  - text: En natt utan sömn kostar mer än den ger
+    size: 1.2
+  duration: 3.4
+- background:
+    image: media:bakgrund/klassrum-solljus.jpg
+    zoom: true
+  texts:
+  - text: Spara till provveckan
+    size: 1.8
+  - text: Vilket prov är värst?
+    size: 1.2
+  duration: 3.4
+- endcard: true
+  texts:
+  - text: Följ för fler plugghacks
+    style: title
+  - text: Piggo – fyll klasskassan
+    style: pill
+  duration: 3.0

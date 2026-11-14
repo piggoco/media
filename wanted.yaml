@@ -425,6 +425,7 @@ images:
     credit: "Foto: Markus Spiske / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – fotboll på gräs i kvällsljus, tydligt sportmotiv (W47-07)"
 
   - file: bakgrund/fotbollsplan-mal.jpg
     url: https://images.unsplash.com/photo-1632684363781-c82fe0e357c8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -433,6 +434,7 @@ images:
     credit: "Foto: Emrah Kara / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – tom fotbollsplan med mål, ljus himmel (W47-07)"
 
   - file: bakgrund/idrottshall-tom.jpg
     url: https://images.unsplash.com/photo-1768842407056-6c64fe629c2e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -441,6 +443,7 @@ images:
     credit: "Foto: Jelle Coelingh / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – tom idrottshall, svartvit; en väska/liten oidentifierbar form vid väggen (W47-07)"
 
   - file: bakgrund/buss-interior.jpg
     url: https://images.unsplash.com/photo-1657721780742-b76814d112e6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -449,6 +452,7 @@ images:
     credit: "Foto: Halley Tian / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – tom bussgång med röda säten, inga personer (W47-03, W47-07)"
 
   # --- 2026-W47 (idé 03: studenten topp eller flopp) ---
   - file: bakgrund/ballong-vit.jpg
@@ -458,6 +462,7 @@ images:
     credit: "Foto: Avinash Kumar / Unsplash"
     license: Unsplash License
     people: none
+    review: "CAUTION – vit ballong på vitt, låg kontrast; använd label-dark (W47-03)"
 
   - file: bakgrund/ljusslinga-kvall.jpg
     url: https://images.unsplash.com/photo-1578643800480-7cb8e6dea0b4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -466,6 +471,7 @@ images:
     credit: "Foto: Jasper Garratt / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – ljusslinga mot mörkblå kvällshimmel, festkänsla (W47-03)"
 
   - file: bakgrund/ljusslinga-gata-sommar.jpg
     url: https://images.unsplash.com/photo-1589830468294-765e8aba10a9?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
@@ -474,3 +480,4 @@ images:
     credit: "Foto: Giorgio Trovato / Unsplash"
     license: Unsplash License
     people: none
+    review: "OK – ljusslinga mot sommarhimmel, inga personer (W47-03)"

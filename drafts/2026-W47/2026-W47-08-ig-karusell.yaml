@@ -1,0 +1,37 @@
+# 2026-W47-08 · Instagram karusell · Säljtips-karusell (Test, post 2 – första på IG, elevvinkel) · "Så når klassen 200 sålda"
+# 200 sålda = 50 %-nivån (01). 25 × 8 = 200 (beräknat).
+type: carousel
+format: post
+output: out/W47/2026-W47-08-ig-karusell
+counter: false
+sound: none
+slides:
+  - background: purple
+    texts:
+      - { text: "Så når klassen 200 sålda", style: headline }
+      - { text: "och behåller 50 %", style: highlight }
+  - background: tint
+    texts:
+      - { text: "25 × 8", style: big-number }
+      - { text: "= 200 sålda", style: title }
+      - { text: "25 säljare som säljer 8 produkter var", style: body }
+  - background: { image: "media:bakgrund/mobil-skrivbord-tra.jpg", overlay: 0.6 }
+    texts:
+      - { text: "1. Börja med släkten", style: title }
+      - { text: "Skicka din webbshop personligt till farmor, morbror och grannen.", style: body }
+  - background: { image: "media:bakgrund/julklappar-golv.jpg", overlay: 0.6 }
+    texts:
+      - { text: "2. Tipsa om en julklapp", style: title }
+      - { text: "Ljus, tryfflar eller olivolja. Gör det lätt att välja.", style: body }
+  - background: { image: "media:bakgrund/konfetti-farg.jpg", overlay: 0.6 }
+    texts:
+      - { text: "3. Säg vad pengarna ska till", style: title }
+      - { text: "Flaket, balen eller resan. Folk köper hellre när de vet.", style: body }
+  - background: { image: "media:bakgrund/julkort-gran.jpg", overlay: 0.6 }
+    texts:
+      - { text: "4. Påminn en gång före jul", style: title }
+      - { text: "Ett vänligt meddelande räcker. Ingen gillar tjat.", style: body }
+  - endcard: true
+    texts:
+      - { text: "Starta på piggo.se", style: title }
+      - { text: "Länken finns i bion", style: pill }

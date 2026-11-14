@@ -1,0 +1,31 @@
+# 2026-W47-07 · TikTok · Cuper/sport (Revidera, revision post 1 – native, lagkassa-vinkel) · "Saker ALLA lag gör inför en cup"
+type: carousel
+format: reel
+native: true
+output: out/W47/2026-W47-07-tiktok
+sound: auto
+slides:
+  - background: { image: "media:bakgrund/fotboll-boll-gras.jpg" }
+    texts:
+      - { text: "Saker ALLA lag gör inför en cup", size: 1.7 }
+  - background: { image: "media:bakgrund/mobil-skrivbord-tra.jpg" }
+    texts:
+      - { text: "Gruppchatten exploderar om vem som kör", size: 1.5 }
+  - background: { image: "media:bakgrund/idrottshall-tom.jpg" }
+    texts:
+      - { text: "Någon har glömt matchtröjan. Igen.", size: 1.5 }
+  - background: { image: "media:bakgrund/buss-interior.jpg" }
+    texts:
+      - { text: "Tränaren räknar på bussen och blir blek", size: 1.5 }
+  - background: { image: "media:bakgrund/spargris-rosa-mork.jpg" }
+    position: 0.40   # lyft texten från spargrisen
+    texts:
+      - { text: "Lagkassan räcker till halva resan", size: 1.5 }
+  - background: { image: "media:bakgrund/fotbollsplan-mal.jpg" }
+    texts:
+      - { text: "Vilken känner du igen?", size: 1.8 }
+      - { text: "Tagga någon i laget", size: 1.2 }
+  - endcard: true
+    texts:
+      - { text: "Ska lagkassan räcka till cupen?", style: title }
+      - { text: "Fyll den med Piggo", style: pill }

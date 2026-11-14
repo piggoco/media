@@ -1,0 +1,46 @@
+# 2026-W47-04 · Instagram Reel · Sortiment med julklappsvinkel för elever (native) · "Julklappar som fyller studentkassan"
+type: video
+format: reel
+native: true
+output: out/W47/2026-W47-04-ig-reel.mp4
+transition: fade
+sound: { ig: "väljs vid schemaläggning", search: "christmas pop" }
+scenes:
+  - duration: 2.8
+    background: { image: "media:bakgrund/julklappar-golv.jpg" }
+    texts:
+      - { text: "Julklappar som fyller studentkassan", size: 1.7 }
+  - duration: 3.2
+    background: { image: "assets/media/w47/herrgardsljus-reel.jpg", zoom: false }
+    position: top   # texten ovanför produkten
+    texts:
+      - { text: "Ljus till farmor", size: 1.5 }
+      - { text: "60–75 kr till kassan", size: 1.2 }
+  - duration: 3.2
+    background: { image: "assets/media/w47/olivtval-reel.jpg", zoom: false }
+    position: top
+    texts:
+      - { text: "Tvål och handkräm till mamma", size: 1.5 }
+      - { text: "60–75 kr till kassan", size: 1.2 }
+  - duration: 3.2
+    background: { image: "assets/media/w47/pepparmix-reel.jpg", zoom: false }
+    position: top
+    texts:
+      - { text: "Pepparmix till den som lagar all mat", size: 1.5 }
+      - { text: "80–100 kr till kassan", size: 1.2 }
+  - duration: 3.2
+    background: { image: "assets/media/w47/chilisalt-reel.jpg", zoom: false }
+    position: top
+    texts:
+      - { text: "Chilisalt till den som har allt", size: 1.5 }
+      - { text: "68–85 kr till kassan", size: 1.2 }
+  - duration: 3.2
+    background: { image: "media:bakgrund/klassrum-solljus.jpg" }
+    texts:
+      - { text: "Upp till 50 % går till kassan", size: 1.5 }
+      - { text: "Ingen startkostnad", size: 1.2 }
+  - duration: 3.0
+    endcard: true
+    texts:
+      - { text: "Sälj julklapparna själva", style: title }
+      - { text: "Fyll kassan med Piggo", style: pill }

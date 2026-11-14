@@ -1,0 +1,10 @@
+# 2026-W47-06 · LinkedIn bild · Påstående-bild (Test, post 2) · "Ingen jagar betalningar."
+type: image
+format: square
+output: out/W47/2026-W47-06-linkedin.png
+sound: none
+background: purple
+texts:
+  - { text: "Ingen jagar betalningar.", style: headline }
+  - { text: "Kunderna swishar och pengarna går direkt till gruppens konto", style: highlight, size: 0.9 }
+  - { text: "4,6 av 5 på Trustpilot", style: small }
