@@ -449,3 +449,28 @@ images:
     credit: "Foto: Halley Tian / Unsplash"
     license: Unsplash License
     people: none
+
+  # --- 2026-W47 (idé 03: studenten topp eller flopp) ---
+  - file: bakgrund/ballong-vit.jpg
+    url: https://images.unsplash.com/photo-1599627935187-b9592a494d71?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/uHBUxADBdoU
+    credit: "Foto: Avinash Kumar / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/ljusslinga-kvall.jpg
+    url: https://images.unsplash.com/photo-1578643800480-7cb8e6dea0b4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/CsQ_YrzcsYQ
+    credit: "Foto: Jasper Garratt / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/ljusslinga-gata-sommar.jpg
+    url: https://images.unsplash.com/photo-1589830468294-765e8aba10a9?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/e75PYAhhZRY
+    credit: "Foto: Giorgio Trovato / Unsplash"
+    license: Unsplash License
+    people: none
