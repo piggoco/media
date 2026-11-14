@@ -416,3 +416,36 @@ images:
     license: Unsplash License
     people: none
     review: "OK – vit mugg i solljus, tydligt motiv, gott om plats för text ovanför (W46-04)"
+
+  # --- 2026-W47 (idé 07: lag/cup) ---
+  - file: bakgrund/fotboll-boll-gras.jpg
+    url: https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/KWQ2kQtxiKE
+    credit: "Foto: Markus Spiske / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/fotbollsplan-mal.jpg
+    url: https://images.unsplash.com/photo-1632684363781-c82fe0e357c8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/Dw_i4xtFchY
+    credit: "Foto: Emrah Kara / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/idrottshall-tom.jpg
+    url: https://images.unsplash.com/photo-1768842407056-6c64fe629c2e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/3ywRO6wbF_k
+    credit: "Foto: Jelle Coelingh / Unsplash"
+    license: Unsplash License
+    people: none
+
+  - file: bakgrund/buss-interior.jpg
+    url: https://images.unsplash.com/photo-1657721780742-b76814d112e6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb
+    source: unsplash
+    page: https://unsplash.com/photos/--mzOu52stA
+    credit: "Foto: Halley Tian / Unsplash"
+    license: Unsplash License
+    people: none
