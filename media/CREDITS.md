@@ -52,3 +52,6 @@
 | bakgrund/fotbollsplan-mal.jpg | unsplash | Foto: Emrah Kara / Unsplash | Unsplash License | none | https://unsplash.com/photos/Dw_i4xtFchY |
 | bakgrund/idrottshall-tom.jpg | unsplash | Foto: Jelle Coelingh / Unsplash | Unsplash License | none | https://unsplash.com/photos/3ywRO6wbF_k |
 | bakgrund/buss-interior.jpg | unsplash | Foto: Halley Tian / Unsplash | Unsplash License | none | https://unsplash.com/photos/--mzOu52stA |
+| bakgrund/ballong-vit.jpg | unsplash | Foto: Avinash Kumar / Unsplash | Unsplash License | none | https://unsplash.com/photos/uHBUxADBdoU |
+| bakgrund/ljusslinga-kvall.jpg | unsplash | Foto: Jasper Garratt / Unsplash | Unsplash License | none | https://unsplash.com/photos/CsQ_YrzcsYQ |
+| bakgrund/ljusslinga-gata-sommar.jpg | unsplash | Foto: Giorgio Trovato / Unsplash | Unsplash License | none | https://unsplash.com/photos/e75PYAhhZRY |
