@@ -1,0 +1,49 @@
+# (återanvänd från 2026-W47-04, aldrig publicerad) 2026-W48-05 · Facebook · Sortimentskarusell (Test, post 2) + Black Friday-vinkel (tidsaktuell idé) · "Alla handlar julklappar nu"
+# Priser och "gruppen behåller" exakt enligt 01-brand-voice.md (produktlistan, kontrollerad 2 nov 2026)
+type: carousel
+format: post
+output: out/W48/2026-W48-05-fb-karusell
+counter: false
+sound: none
+slides:
+  - background: { image: "media:bakgrund/julklappar-golv.jpg", overlay: 0.55 }
+    texts:
+      - { text: "Alla handlar julklappar nu", style: headline }
+      - { text: "Låt dem handla av er klass eller ert lag", style: body }
+  - &card
+    background: { image: "assets/media/w48/herrgardsljus-post.jpg", overlay: 0, dark: false }
+    logo: false
+    decor: false
+    position: bottom   # texten under produktbilden
+    texts:
+      - { text: "Herrgårdsljus · 149 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 60–75 kr", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w48/olivtval-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Olivtvål & Handkräm · 149 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 60–75 kr", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w48/pepparmix-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Vild Pepparmix · 199 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 80–100 kr", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w48/chilisalt-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Havssalt Chili & Vitlök · 169 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 68–85 kr", style: body, size: 0.9 }
+  - <<: *card
+    background: { image: "assets/media/w48/badrumskit-post.jpg", overlay: 0, dark: false }
+    texts:
+      - { text: "Häxan Badrumskit · 229 kr", style: title, size: 0.9 }
+      - { text: "Gruppen behåller 92–115 kr", style: body, size: 0.9 }
+  - background: purple
+    texts:
+      - { text: "Upp till 50 %\ntill kassan", style: headline }
+      - { text: "Ingen startkostnad", style: highlight }
+      - { text: "Osålda produkter beställs aldrig", style: body }
+  - endcard: true
+    texts:
+      - { text: "Starta på piggo.se", style: title }
+      - { text: "Hela sortimentet finns där", style: pill }

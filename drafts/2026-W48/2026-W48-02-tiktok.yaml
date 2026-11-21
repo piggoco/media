@@ -1,0 +1,35 @@
+# (återanvänd från 2026-W47-01, aldrig publicerad) 2026-W48-02 · TikTok · TikTok-lista (native, Test post 1) · "Saker ALLA treor säger innan jullovet"
+type: carousel
+format: reel
+native: true
+output: out/W48/2026-W48-02-tiktok
+sound: auto
+slides:
+  - background: { image: "media:bakgrund/klassrum-solljus.jpg" }
+    texts:
+      - { text: "Saker ALLA treor säger innan jullovet", size: 1.7 }
+  - background: { image: "media:bakgrund/julgran-kulor.jpg" }
+    texts:
+      - { text: "Det här är vårt sista jullov på gymnasiet", size: 1.5 }
+  - background: { image: "media:bakgrund/konfetti-farg.jpg" }
+    texts:
+      - { text: "Vi MÅSTE bestämma flaktema nu", size: 1.5 }
+  - background: { image: "media:bakgrund/obaddad-sang.jpg" }
+    texts:
+      - { text: "Jag ska plugga på jullovet", size: 1.5 }
+      - { text: "(spoiler: nej)", size: 1.2 }
+  - background: { image: "media:bakgrund/julklappar-golv.jpg" }
+    texts:
+      - { text: "Jag har inte köpt en enda julklapp än", size: 1.5 }
+  - background: { image: "media:bakgrund/skrivbordslampa-anteckningar.jpg" }
+    texts:
+      - { text: "Snart jullov. Jag har koll.", size: 1.5 }
+      - { text: "(har ingen koll)", size: 1.2 }
+  - background: { image: "media:bakgrund/klassrum-stol.jpg" }
+    texts:
+      - { text: "Vilken har du sagt?", size: 1.8 }
+      - { text: "Tagga en trea", size: 1.2 }
+  - endcard: true
+    texts:
+      - { text: "Ska ni ha en maxad student?", style: title }
+      - { text: "Fyll kassan med Piggo", style: pill }

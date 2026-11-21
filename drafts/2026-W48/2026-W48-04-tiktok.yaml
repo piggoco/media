@@ -1,0 +1,36 @@
+# (återanvänd från 2026-W47-03, aldrig publicerad) 2026-W48-04 · TikTok · Omröstning (Revidera, revision post 1 – native, studenten-ämne) · "Studenten-grejer – topp eller flopp?"
+type: carousel
+format: reel
+native: true
+output: out/W48/2026-W48-04-tiktok
+sound: auto
+slides:
+  - background: { image: "media:bakgrund/konfetti-farg.jpg" }
+    texts:
+      - { text: "Topp eller flopp? Studenten-grejer", size: 1.7 }
+  - background: { image: "media:bakgrund/ljusslinga-gata-sommar.jpg" }
+    texts:
+      - { text: "1. Flak med en egen klasslåt", size: 1.5 }
+  - background: { image: "media:bakgrund/ballong-vit.jpg" }
+    texts:
+      - { text: "2. Skylt med barnbild på utspringet", style: label-dark, size: 1.5 }   # mörk etikett: ljus bild
+  - background: { image: "media:bakgrund/klassrum-solljus.jpg" }
+    texts:
+      - { text: "3. Matchande tröjor för hela klassen", size: 1.5 }
+  - background: { image: "media:bakgrund/ljusslinga-kvall.jpg" }
+    texts:
+      - { text: "4. Studentbal", size: 1.5 }
+  - background: { image: "media:bakgrund/konfetti-golv.jpg", overlay: 0.3 }
+    texts:
+      - { text: "5. Mottagning med hela släkten", size: 1.5 }
+  - background: { image: "media:bakgrund/buss-interior.jpg" }
+    texts:
+      - { text: "6. Studentresa direkt efter", size: 1.5 }
+  - background: { image: "media:bakgrund/klassrum-stol.jpg" }
+    texts:
+      - { text: "Vilken är mest topp?", size: 1.8 }
+      - { text: "Kommentera nedan", size: 1.2 }
+  - endcard: true
+    texts:
+      - { text: "Studentkassan tom?", style: title }
+      - { text: "Fyll den med Piggo", style: pill }

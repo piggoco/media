@@ -1,0 +1,48 @@
+# 2026-W48-01 · TikTok · Skol-slideshow (Vinnare – ny vinkel "gissa staden") · "Gissa staden från skolan"
+# Hela skolfoton som komposit (06 "Whole photos"): suddig bakgrund + hela fotot 1080x640, botten y=1400, kredit i fotot.
+# Etiketter position: top ovanför fotot (fotot är skälet). Ingen stad/skola står på fotoslides – svaret på bild 8.
+type: carousel
+format: reel
+native: true
+output: out/W48/2026-W48-01-tiktok
+sound: auto
+slides:
+  - background: { image: "assets/media/w48/lund-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "Gissa staden från skolan", size: 1.7 }
+      - { text: "1. Tips: anor från 1085", size: 1.2 }
+  - background: { image: "assets/media/w48/goteborg-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "2. Vilken stad?", size: 1.5 }
+      - { text: "Tips: västkusten", size: 1.2 }
+  - background: { image: "assets/media/w48/vasteras-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "3. Vilken stad?", size: 1.5 }
+      - { text: "Tips: vid Mälaren", size: 1.2 }
+  - background: { image: "assets/media/w48/uppsala-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "4. Vilken stad?", size: 1.5 }
+      - { text: "Tips: studentstad", size: 1.2 }
+  - background: { image: "assets/media/w48/malmo-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "5. Vilken stad?", size: 1.5 }
+      - { text: "Tips: nära bron", size: 1.2 }
+  - background: { image: "assets/media/w48/stockholm-reel.jpg", overlay: 0 }
+    position: top
+    texts:
+      - { text: "6. Vilken stad?", size: 1.5 }
+      - { text: "Tips: huvudstaden", size: 1.2 }
+  - background: { image: "media:bakgrund/klassrum-stol.jpg" }
+    texts:
+      - { text: "Svar", size: 1.5 }
+      - { text: "1 Lund · 2 Göteborg\n3 Västerås · 4 Uppsala\n5 Malmö · 6 Stockholm", size: 1.15 }
+      - { text: "Hur många fick du rätt?", size: 1.5 }
+  - endcard: true
+    texts:
+      - { text: "Ska ni ha en maxad student?", style: title }
+      - { text: "Fyll kassan med Piggo", style: pill }

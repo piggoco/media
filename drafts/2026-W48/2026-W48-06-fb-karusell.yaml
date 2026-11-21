@@ -1,0 +1,39 @@
+# (återanvänd från 2026-W47-05, aldrig publicerad) 2026-W48-06 · Facebook · Räkneexempel-karusell (Test) · "Ju fler ni säljer, desto mer behåller ni"
+# Alla siffror från 01-brand-voice.md Core messages (40/45/50 %, 25 × 15 ≈ 30 000 kr, fraktavgift under 25)
+type: carousel
+format: post
+output: out/W48/2026-W48-06-fb-karusell
+counter: false
+sound: none
+slides:
+  - background: purple
+    texts:
+      - { text: "Ju fler ni säljer, desto mer behåller ni", style: headline }
+      - { text: "Så funkar nivåerna", style: highlight }
+  - background: tint
+    texts:
+      - { text: "40 %", style: big-number }
+      - { text: "vid 1–99 sålda produkter", style: title, size: 0.8 }
+  - background: tint
+    texts:
+      - { text: "45 %", style: big-number }
+      - { text: "vid 100–199 sålda produkter", style: title, size: 0.8 }
+  - background: purple
+    texts:
+      - { text: "50 %", style: big-number }
+      - { text: "från 200 sålda produkter", style: title, size: 0.8 }
+  - background: tint
+    texts:
+      - { text: "Exempel", style: pill }
+      - { text: "25 säljare × 15 produkter\n= 375 sålda", style: title, size: 0.85 }
+      - { text: "ca 30 000 kr", style: big-number, size: 0.75 }
+      - { text: "till kassan", style: body }
+  - background: tint
+    texts:
+      - { text: "Ingen startkostnad.\nInga minimikrav.", style: headline, size: 0.85 }
+      - { text: "Osålda produkter beställs aldrig.", style: body }
+      - { text: "Säljer gruppen färre än 25 produkter totalt tillkommer en fraktavgift.", style: small }
+  - endcard: true
+    texts:
+      - { text: "Starta på piggo.se", style: title }
+      - { text: "Spara till säljstarten", style: pill }
